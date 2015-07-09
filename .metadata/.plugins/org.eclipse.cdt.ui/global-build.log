@@ -1,0 +1,90 @@
+20:49:53 **** Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+Building file: ../src/RemoveDuplicatesFromSortedList2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RemoveDuplicatesFromSortedList2.d" -MT"src/RemoveDuplicatesFromSortedList2.d" -o "src/RemoveDuplicatesFromSortedList2.o" "../src/RemoveDuplicatesFromSortedList2.cpp"
+../src/RemoveDuplicatesFromSortedList2.cpp:63:2: error: type 'ostream' (aka 'basic_ostream<char>') does not provide a call operator
+        cout(sizeof(in));
+        ^~~~
+1 error generated.
+make: *** [src/RemoveDuplicatesFromSortedList2.o] Error 1
+20:50:50 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+Building file: ../src/RemoveDuplicatesFromSortedList2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RemoveDuplicatesFromSortedList2.d" -MT"src/RemoveDuplicatesFromSortedList2.d" -o "src/RemoveDuplicatesFromSortedList2.o" "../src/RemoveDuplicatesFromSortedList2.cpp"
+../src/RemoveDuplicatesFromSortedList2.cpp:62:6: warning: unused variable 'in' [-Wunused-variable]
+        int in[]={1,2,3,4,5,6};
+            ^
+1 warning generated.
+Finished building: ../src/RemoveDuplicatesFromSortedList2.cpp
+ 
+Building target: RemoveDuplicatesFromSortedList2
+Invoking: MacOS X C++ Linker
+g++  -o "RemoveDuplicatesFromSortedList2"  ./src/RemoveDuplicatesFromSortedList2.o   
+Finished building target: RemoveDuplicatesFromSortedList2
+ 
+21:16:51 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+Building file: ../src/RemoveDuplicatesFromSortedList2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RemoveDuplicatesFromSortedList2.d" -MT"src/RemoveDuplicatesFromSortedList2.d" -o "src/RemoveDuplicatesFromSortedList2.o" "../src/RemoveDuplicatesFromSortedList2.cpp"
+../src/RemoveDuplicatesFromSortedList2.cpp:69:22: error: no matching constructor for initialization of 'struct ListNode'
+            head=new struct ListNode;
+                     ^
+../src/RemoveDuplicatesFromSortedList2.cpp:10:3: note: candidate constructor not viable: requires single argument 'x', but no arguments were provided
+  ListNode(int x) : val(x), next(NULL) {}
+  ^
+../src/RemoveDuplicatesFromSortedList2.cpp:7:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct ListNode {
+       ^
+../src/RemoveDuplicatesFromSortedList2.cpp:76:28: error: no matching constructor for initialization of 'struct ListNode'
+            curr->next=new struct ListNode;
+                           ^
+../src/RemoveDuplicatesFromSortedList2.cpp:10:3: note: candidate constructor not viable: requires single argument 'x', but no arguments were provided
+  ListNode(int x) : val(x), next(NULL) {}
+  ^
+../src/RemoveDuplicatesFromSortedList2.cpp:7:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct ListNode {
+       ^
+2 errors generated.
+make: *** [src/RemoveDuplicatesFromSortedList2.o] Error 1
+21:22:49 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+Building file: ../src/RemoveDuplicatesFromSortedList2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RemoveDuplicatesFromSortedList2.d" -MT"src/RemoveDuplicatesFromSortedList2.d" -o "src/RemoveDuplicatesFromSortedList2.o" "../src/RemoveDuplicatesFromSortedList2.cpp"
+Finished building: ../src/RemoveDuplicatesFromSortedList2.cpp
+ 
+Building target: RemoveDuplicatesFromSortedList2
+Invoking: MacOS X C++ Linker
+g++  -o "RemoveDuplicatesFromSortedList2"  ./src/RemoveDuplicatesFromSortedList2.o   
+Finished building target: RemoveDuplicatesFromSortedList2
+ 
+21:23:07 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+make: Nothing to be done for `all'.
+21:23:13 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:02 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+Building file: ../src/RemoveDuplicatesFromSortedList2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RemoveDuplicatesFromSortedList2.d" -MT"src/RemoveDuplicatesFromSortedList2.d" -o "src/RemoveDuplicatesFromSortedList2.o" "../src/RemoveDuplicatesFromSortedList2.cpp"
+Finished building: ../src/RemoveDuplicatesFromSortedList2.cpp
+ 
+Building target: RemoveDuplicatesFromSortedList2
+Invoking: MacOS X C++ Linker
+g++  -o "RemoveDuplicatesFromSortedList2"  ./src/RemoveDuplicatesFromSortedList2.o   
+Finished building target: RemoveDuplicatesFromSortedList2
+ 
+21:59:22 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:42 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:50 **** Incremental Build of configuration Debug for project RemoveDuplicatesFromSortedList2 ****
+make all 
+make: Nothing to be done for `all'.
